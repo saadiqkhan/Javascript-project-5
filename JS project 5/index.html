@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JS Array</h1>
+    <p id="a"></p>
+    <script>
+        var number=[9,3,7,0,2,4,9,5,3,7,3,9,3,0,2,1,4,6,7]
+        document.getElementById("a").innerHTML=number.length
+        //Methods in array
+        number.push(9)
+        document.write(number)
+       document.write("<br>")
+        number.push("Saadiq")
+        document.write(number)
+        //pop
+        number.pop()
+        document.write("<br>")
+document.write(number)
+        //Join
+        number.join("*")
+        document.write("<br>")
+        document.write(number)
+    </script>
+
+</body>
+</html>
